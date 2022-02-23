@@ -1,0 +1,6 @@
+# search.js exceeds GitHubs file size limit
+./*/assets/search.js
+./*/assets/search.json
+
+# For internal tests only
+./try
