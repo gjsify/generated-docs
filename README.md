@@ -1,7 +1,7 @@
 # generated-docs
 Generated typescript documentations using @gjsify/doc
 
-## Credits
+## LICENSE
 
 |               Documentation |                                                                                                Copyright |     License |
 |----------------------------:|---------------------------------------------------------------------------------------------------------:|------------:|

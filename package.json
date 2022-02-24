@@ -1,0 +1,36 @@
+{
+  "name": "@gjsify/generated-docs",
+  "version": "0.0.1",
+  "description": "Generated Typedoc documentation using @gjsify/docs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently 'npm:start:*'",
+    "start:gjs": "typedoc-server serve ./gjs --port 3201",
+    "start:node-gtk": "typedoc-server serve ./node-gtk --port 3202",
+    "start:try": "typedoc-server serve ./try --port 3203"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjsify/generated-docs.git"
+  },
+  "keywords": [
+    "GJS",
+    "node-gtk",
+    "documentation",
+    "typedoc",
+    "typescript",
+    "gjsify"
+  ],
+  "author": "Pascal Garber <pascal@artandcode.studio>",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/gjsify/generated-docs/issues"
+  },
+  "homepage": "https://github.com/gjsify/generated-docs#readme",
+  "dependencies": {
+    "@gjsify/typedoc-plugin-remote-search": "^0.1.6",
+    "concurrently": "^7.0.0"
+  }
+}

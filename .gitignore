@@ -2,5 +2,4 @@
 ./*/assets/search.js
 ./*/assets/search.json
 
-# For internal tests only
-./try
+node_modules/
