@@ -7,9 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently 'npm:start:*'",
-    "start:gjs": "typedoc-server serve ./gjs --port 3201",
-    "start:node-gtk": "typedoc-server serve ./node-gtk --port 3202",
-    "start:try": "typedoc-server serve ./try --port 3203"
+    "start:gjs": "typedoc-server serve ./gjs --port 3201 --origin *",
+    "start:node-gtk": "typedoc-server serve ./node-gtk --port 3202 --origin *",
+    "start:try": "typedoc-server serve ./try --port 3203 --origin *"
   },
   "repository": {
     "type": "git",
