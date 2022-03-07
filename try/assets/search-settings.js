@@ -1,6 +1,5 @@
 window.remoteSearchOptions = window.remoteSearchOptions || {
-      hostname: "localhost",
-      port: 3024,
-      replaceElement: true,
-      script: false,
-    };
+  serverBaseUrl: "https://try-docs.gjsify.org/",
+  replaceElement: false,
+  script: false,
+};

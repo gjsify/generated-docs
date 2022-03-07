@@ -9,7 +9,8 @@
     "start": "concurrently 'npm:start:*'",
     "start:gjs": "typedoc-server serve ./gjs --port 3201 --origin '*'",
     "start:node-gtk": "typedoc-server serve ./node-gtk --port 3202 --origin '*'",
-    "start:try": "typedoc-server serve ./try --port 3203 --origin '*'"
+    "start:try": "typedoc-server serve ./try --port 3203 --origin '*'",
+    "compress:gjs": "typedoc-server convert ./gjs/assets/search.js --target ./gjs/assets/search.json.7z"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,7 @@
   },
   "homepage": "https://github.com/gjsify/generated-docs#readme",
   "dependencies": {
-    "@gjsify/typedoc-plugin-remote-search": "^0.2.1",
+    "@gjsify/typedoc-plugin-remote-search": "^0.2.2",
     "concurrently": "^7.0.0"
   }
 }
