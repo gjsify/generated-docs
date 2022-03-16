@@ -9,8 +9,10 @@
     "start": "concurrently 'npm:start:*'",
     "start:gjs": "typedoc-server serve ./gjs --port 3201 --origin '*'",
     "start:node-gtk": "typedoc-server serve ./node-gtk --port 3202 --origin '*'",
-    "start:try": "typedoc-server serve ./try --port 3203 --origin '*'",
-    "compress:gjs": "typedoc-server convert ./gjs/assets/search.js --target ./gjs/assets/search.json.7z"
+    "start:try-gjs": "typedoc-server serve ./try-gjs --port 3203 --origin '*'",
+    "start:try-node-gtk": "typedoc-server serve ./try-node-gtk --port 3204 --origin '*'",
+    "convert:search:gjs": "typedoc-server convert ./gjs/assets/search.js --target ./gjs/assets/search.json.7z",
+    "convert:search:node-gtk": "typedoc-server convert ./node-gtk/assets/search.js --target ./node-gtk/assets/search.json.7z"
   },
   "repository": {
     "type": "git",
