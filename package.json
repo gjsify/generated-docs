@@ -34,6 +34,6 @@
   "homepage": "https://github.com/gjsify/generated-docs#readme",
   "dependencies": {
     "@gjsify/typedoc-plugin-remote-search": "^0.2.2",
-    "concurrently": "^7.0.0"
+    "concurrently": "^8.2.0"
   }
 }
